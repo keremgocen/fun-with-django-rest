@@ -139,5 +139,5 @@ AUTH_USER_MODEL = "login.Customer"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "https://distracted-brown-345b1f.netlify.app/",
+    "https://distracted-brown-345b1f.netlify.app",
 ]
