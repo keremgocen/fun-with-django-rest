@@ -5,4 +5,5 @@ from django.db import models
 
 class Customer(AbstractUser):
     pin_code = models.CharField(
-        max_length=5, default='00000', editable=True, unique=True, validators=[MinLengthValidator(5)])
+        max_length=5, editable=True, unique=True, validators=[MinLengthValidator(5)]
+    )
