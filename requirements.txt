@@ -5,7 +5,7 @@ autopep8==1.5.4
 certifi==2020.12.5
 chardet==3.0.4
 distlib==0.3.1
-Django==3.0.8
+Django==3.1.9
 django-cors-headers==3.7.0
 djangorestframework==3.12.2
 filelock==3.0.12
